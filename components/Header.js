@@ -34,7 +34,7 @@ const Header = ({thirdWebToken,sanityTokens,walletAddress, connectWallet}) => {
         <WalletLink>
           <WalletLinkTitle>Wallet connected</WalletLinkTitle>
           <WalletAddress>
-          {walletAddress.slice(0, 7)}...{walletAddress.slice(35)}
+                    {walletAddress && walletAddress.slice(0, 7)}...{walletAddress && walletAddress.slice(35)}
           </WalletAddress>
 
         </WalletLink>
