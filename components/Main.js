@@ -13,7 +13,7 @@ const Main = ({thirdWebToken , sanityTokens , walletAddress}) => {
           sanityToken={ sanityTokens }
         thirdWebToken={ thirdWebToken } />
       
-      <Promos/>
+      {/* <Promos/> */}
     </Wrapper>
   )
 }
